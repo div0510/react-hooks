@@ -8,6 +8,8 @@ const ProductsHome = () => {
     <Link to="/product/add">Add </Link>
     <Link to="/product/filter">Filter</Link>
     <Outlet/>
+    <h3>Go to HOME page </h3>
+    <Link to={"/"}>Back</Link>
   </>
 }
 
